@@ -1,0 +1,20 @@
+{
+  "name": "curso-webcomponents",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kevin Parra Lopez <kevinparra535@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevinparra535/curso-webcomponents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kevinparra535/curso-webcomponents/issues"
+  },
+  "homepage": "https://github.com/Kevinparra535/curso-webcomponents#readme",
+  "description": ""
+}
