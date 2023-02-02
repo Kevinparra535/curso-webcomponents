@@ -6,7 +6,6 @@ class myElement extends HTMLElement {
     super();
 
     this.attachShadow({ mode: "open" });
-
   }
 
   getTemplate() {
@@ -14,11 +13,11 @@ class myElement extends HTMLElement {
     template.innerHTML = `
       <section class='container'>
         <div class="container__header">
-          <h2><slot></slot></h2>
+          <h2><slot name="title"></slot></h2>
         </div>
 
         <div class="container__body">
-          <p><slot></slot></p>
+          <p><slot name="body"></slot></p>
         </div>
       </section>
       ${this.getStyles()}
@@ -37,7 +36,7 @@ class myElement extends HTMLElement {
     `;
   }
 
-  // Esta función renderiza el contenido de un elemento en el DOM 
+  // Esta función renderiza el contenido de un elemento en el DOM
   render() {
     // Obtiene el contenido del template
     const templateContent = this.getTemplate().content;
