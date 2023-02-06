@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Slot</title>
+  </head>
+  <body>
+    <my-element>
+      <span slot="title">Soy el titulo 1</span>
+      <span slot="body">Soy el cuerpo</span>
+    </my-element>
+
+    <my-element class="small">
+      <span slot="title">Soy el titulo 2</span>
+      <span slot="body">Soy el cuerpo</span>
+    </my-element>
+
+    <my-element class="large" bold>
+      <span slot="title">Soy el titulo 3</span>
+      <span slot="body">Soy el cuerpo</span>
+    </my-element>
+
+    <article class="card">
+      <my-element class="large" bold>
+        <span slot="title">Soy el titulo 3</span>
+        <span slot="body">Soy el cuerpo</span>
+      </my-element>
+    </article>
+
+    <script src="./my-element.js"></script>
+  </body>
+</html>
