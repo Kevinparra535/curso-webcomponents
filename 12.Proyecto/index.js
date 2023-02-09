@@ -61,7 +61,7 @@ class ProductCard extends HTMLElement {
         }
 
         img {
-          top: 25%;
+          top: 42%;
           left: 50%;
           max-width: 750px;
         }
